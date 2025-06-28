@@ -3,8 +3,8 @@
 
 return [
     // Gallery Settings
-    'gallery_name' => 'My Photo Gallery',
-    'gallery_description' => 'Browse through my photo collections',
+    'gallery_name' => 'Quick Gallery',
+    'gallery_description' => 'Description of the gallery',
     
     // Thumbnail Settings
     'default_thumb_size' => 200,

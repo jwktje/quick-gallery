@@ -1,6 +1,10 @@
-# PHP Photo Gallery
+# Quick Gallery
 
 A lightweight, responsive photo gallery application built with PHP and Tailwind CSS.
+[Built to help out in this threat on Reddit.](https://www.reddit.com/r/webdev/comments/1lmjitt/i_need_a_simple_if_possible_free_way_to_publish/)
+
+## What it looks like
+![Screenshot](/screenshot.png "Optional Title")
 
 ## Setup
 
