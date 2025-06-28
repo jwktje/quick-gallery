@@ -1,0 +1,14 @@
+# Prevent directory listing and direct access
+Options -Indexes
+
+# Allow access to image files through the application only
+<Files "*">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+# Block direct access to this directory
+<Files ".htaccess">
+    Order Allow,Deny
+    Deny from all
+</Files> 

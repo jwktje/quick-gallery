@@ -1,0 +1,14 @@
+# Prevent directory listing
+Options -Indexes
+
+# Allow access to thumbnail images
+<Files "*.jpg">
+    Order Allow,Deny
+    Allow from all
+</Files>
+
+# Block direct access to this directory
+<Files ".htaccess">
+    Order Allow,Deny
+    Deny from all
+</Files> 

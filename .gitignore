@@ -1,0 +1,22 @@
+# Generated thumbnails (keep directory, ignore contents)
+thumbs/*
+!thumbs/.gitkeep
+!thumbs/.htaccess
+
+# Albums content (keep directory, ignore contents)
+albums/*
+!albums/.gitkeep
+!albums/.htaccess
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# PHP temporary files
+*.tmp 
